@@ -1,0 +1,15 @@
+.banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+
+  background-image: url(../../assets/images/pink_bg.jpg);
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    font-weight: bold;
+  }
+}
